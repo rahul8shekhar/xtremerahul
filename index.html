@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xtreme Rahul | Rahul Shekhar</title>
+<meta name="description" content="Rahul Shekhar: QA and software testing professional, YouTuber, traveller. Work Hard, Travel Far, Dream Big.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#e8edf1; --panel:#f6f8fa; --ink:#15212c; --muted:#4d5d6b; --rule:#b9c5cf; --accent:#d9480f; --accent-ink:#fff;
+  --serif:"Instrument Serif",Georgia,serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1720;--panel:#17222d;--ink:#e6ecf1;--muted:#9fb0bf;--rule:#2a3947;--accent:#ff8a4c;--accent-ink:#0f1720}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:.2em}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 clamp(1.25rem,5vw,3rem)}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--rule)}
+nav .wrap{display:flex;gap:1.25rem;overflow-x:auto;padding-top:.8rem;padding-bottom:.8rem;scrollbar-width:thin}
+nav a{color:var(--ink);text-decoration:none;font-size:.9rem;font-weight:500;white-space:nowrap}
+nav a:hover{color:var(--accent)}
+.hero{padding:clamp(2.5rem,8vw,6rem) 0 clamp(2rem,6vw,4rem);display:grid;grid-template-columns:1fr minmax(0,18rem);gap:2.5rem;align-items:end}
+h1{font:400 clamp(3.5rem,13vw,9rem)/.88 var(--serif);letter-spacing:-.02em;margin:0}
+.tag{font-size:1.2rem;max-width:32rem;margin:1.75rem 0 0}
+.banner{margin:1.5rem 0 0;font:600 1rem/1 var(--sans);display:flex;gap:.6rem;flex-wrap:wrap}
+.banner span{background:var(--accent);color:var(--accent-ink);padding:.55rem .9rem;border-radius:2px;opacity:0;transform:translateY(.6rem);animation:rise .6s ease forwards}
+.banner span:nth-child(2){animation-delay:.35s}.banner span:nth-child(3){animation-delay:.7s}
+@keyframes rise{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.banner span{animation:none;opacity:1;transform:none}html{scroll-behavior:auto}}
+.photo{aspect-ratio:4/5;background:var(--panel);border:1px dashed var(--rule);display:grid;place-items:center;text-align:center;color:var(--muted);font-size:.9rem;padding:1rem}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.quick{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.75rem 0 0}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);padding:.6rem 1.1rem;border-radius:2px;text-decoration:none;font-weight:600;font-size:.95rem;border:0;cursor:pointer;font-family:inherit}
+.btn.alt{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.row{display:grid;grid-template-columns:11rem 1fr;gap:1rem 2rem;padding:2.25rem 0;border-top:1px solid var(--rule)}
+.row h2{font:400 1.7rem/1.15 var(--serif);margin:0}
+.row h2 small{display:block;font:500 .9rem/1.5 var(--sans);color:var(--muted);margin-top:.35rem}
+.row p{margin:0 0 1rem;max-width:40rem}
+.row>div>*:last-child{margin-bottom:0}
+dl{margin:0}dt{font-weight:600}dd{margin:0 0 1.1rem;color:var(--muted);max-width:40rem}
+ul.plain{list-style:none;margin:0 0 1rem;padding:0}ul.plain li{margin-bottom:.4rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;margin:0 0 1rem;padding:0}
+.chips li{background:var(--panel);border:1px solid var(--rule);padding:.25rem .75rem;border-radius:2px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(11rem,1fr));gap:.75rem;margin:0 0 1rem}
+.tile{aspect-ratio:4/3;background:var(--panel);border:1px dashed var(--rule);display:grid;place-items:center;color:var(--muted);font-size:.9rem;text-align:center;padding:.5rem}
+ol.top{margin:0;padding-left:1.5rem;max-width:40rem}ol.top li{margin-bottom:.35rem}
+form{display:grid;gap:.9rem;max-width:30rem;margin:0 0 1.5rem}
+label{display:grid;gap:.3rem;font-weight:500;font-size:.95rem}
+input,textarea{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:.6rem .7rem}
+textarea{min-height:8rem;resize:vertical}
+footer{border-top:1px solid var(--rule);padding:1.5rem 0 3rem;color:var(--muted);font-size:.9rem}
+@media (max-width:44rem){.hero{grid-template-columns:1fr}.photo{max-width:16rem}.row{grid-template-columns:1fr;gap:.6rem}}
+</style>
+</head>
+<body>
+<nav aria-label="Sections"><div class="wrap">
+  <a href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#youtube">YouTube</a><a href="#travel">Travel</a><a href="#gallery">Gallery</a><a href="#hobbies">Hobbies</a><a href="#movies">Movies</a><a href="#blog">Blog</a><a href="#achievements">Achievements</a><a href="#connect">Connect</a>
+</div></nav>
+
+<div class="wrap">
+<header class="hero" id="home">
+  <div>
+    <h1>Xtreme<br>Rahul</h1>
+    <p class="tag">Hi, I’m Rahul Shekhar. Welcome to my world.</p>
+    <p class="banner" aria-label="Work Hard, Travel Far, Dream Big"><span>Work Hard</span><span>Travel Far</span><span>Dream Big</span></p>
+    <p class="tag" style="margin-top:1rem;color:var(--muted)">Living Life to the Xtreme.</p>
+    <div class="quick">
+      <a class="btn" href="#youtube">Watch my videos</a>
+      <a class="btn alt" href="#work">My work</a>
+      <a class="btn alt" href="#connect">Get in touch</a>
+    </div>
+  </div>
+  <!-- EDIT: replace this box with <img src="photo.jpg" alt="Rahul Shekhar"> -->
+  <div class="photo">Your best photograph goes here</div>
+</header>
+
+<main>
+<section class="row" id="about">
+  <h2>About Me<small>The man behind Xtreme Rahul</small></h2>
+  <div>
+    <!-- EDIT: your story -->
+    <p>[Your story: where you grew up, how you ended up in Australia, and what drives you.]</p>
+    <p>[Your values and what makes you unique.]</p>
+    <dl>
+      <dt>[Year]</dt><dd>[A milestone in your journey]</dd>
+      <dt>[Year]</dt><dd>[Another milestone]</dd>
+    </dl>
+  </div>
+</section>
+
+<section class="row" id="work">
+  <h2>My Work<small>Professional journey</small></h2>
+  <div>
+    <p>I work in IT, specialising in QA and software testing, including projects for SAPOL.</p>
+    <dl>
+      <dt>[Role], [Organisation]</dt><dd>[Years]. [What you tested, built or led.]</dd>
+      <dt>SAPOL projects</dt><dd>[Describe the projects you can share publicly.]</dd>
+    </dl>
+    <p><strong>Technical skills</strong></p>
+    <ul class="chips"><li>Software testing</li><li>Test automation</li><li>[Tool]</li><li>[Tool]</li></ul>
+    <p><strong>Certifications</strong></p>
+    <ul class="plain"><li>[Certification, issuer, year]</li></ul>
+    <!-- EDIT: add your resume as resume.pdf in the repo -->
+    <a class="btn" href="resume.pdf" download>Download resume</a>
+  </div>
+</section>
+
+<section class="row" id="youtube">
+  <h2>Xtreme Rahul<small>My YouTube channel</small></h2>
+  <div>
+    <p>Travel vlogs, adventures and Shorts.</p>
+    <!-- EDIT: paste video IDs. Example: <iframe src="https://www.youtube.com/embed/VIDEO_ID" ...> -->
+    <div class="grid"><div class="tile">Featured video</div><div class="tile">Latest upload</div><div class="tile">Popular Short</div></div>
+    <a class="btn" href="https://www.youtube.com/@your-channel?sub_confirmation=1">Subscribe on YouTube</a>
+  </div>
+</section>
+
+<section class="row" id="travel">
+  <h2>My Travel Diaries<small>Explore with me</small></h2>
+  <div>
+    <p><strong>Countries visited</strong></p>
+    <ul class="chips"><li>[Country]</li><li>[Country]</li><li>[Country]</li></ul>
+    <dl>
+      <dt>[Destination]: favourite</dt><dd>[Your travel story and a memorable experience.]</dd>
+      <dt>[Destination]: itinerary</dt><dd>[Days, route and tips.]</dd>
+    </dl>
+    <!-- EDIT: embed a Google My Maps iframe here for the interactive map -->
+    <div class="tile" style="aspect-ratio:16/7">Interactive travel map</div>
+  </div>
+</section>
+
+<section class="row" id="gallery">
+  <h2>Photography &amp; Gallery<small>Moments worth keeping</small></h2>
+  <div class="grid">
+    <!-- EDIT: replace each tile with <img src="photos/name.jpg" alt="..."> -->
+    <div class="tile">Travel</div><div class="tile">Portraits</div><div class="tile">Nature</div>
+    <div class="tile">Cityscapes</div><div class="tile">Drone</div><div class="tile">Memorable moments</div>
+  </div>
+</section>
+
+<section class="row" id="hobbies">
+  <h2>Hobbies &amp; Adventures<small>What I do for fun</small></h2>
+  <div>
+    <ul class="chips"><li>Cycling</li><li>Swimming</li><li>Drones</li><li>RC monster trucks</li><li>Technology</li><li>Fitness</li><li>Outdoor activities</li></ul>
+    <p>[A line or two on what each means to you.]</p>
+  </div>
+</section>
+
+<section class="row" id="movies">
+  <h2>Movies &amp; Entertainment<small>Ratings and picks</small></h2>
+  <div>
+    <p><strong>My top 10</strong></p>
+    <ol class="top"><li>[Movie], [rating]/10</li><li>[Movie], [rating]/10</li><li>[Movie], [rating]/10</li></ol>
+    <p style="margin-top:1rem">[Add reviews and other entertainment picks here.]</p>
+  </div>
+</section>
+
+<section class="row" id="blog">
+  <h2>Rahul’s Journal<small>My blog</small></h2>
+  <dl>
+    <!-- EDIT: link each title to its post page -->
+    <dt>[Post title: life in Australia]</dt><dd>[One-line summary]</dd>
+    <dt>[Post title: technology tip]</dt><dd>[One-line summary]</dd>
+    <dt>[Post title: travel guide]</dt><dd>[One-line summary]</dd>
+  </dl>
+</section>
+
+<section class="row" id="achievements">
+  <h2>Achievements &amp; Milestones<small>Proud moments</small></h2>
+  <dl>
+    <dt>[Year]: [Certification or career highlight]</dt><dd>[Why it mattered.]</dd>
+    <dt>[Year]: [Personal accomplishment]</dt><dd>[Why it mattered.]</dd>
+  </dl>
+</section>
+
+<section class="row" id="connect">
+  <h2>Connect With Me<small>Say hello</small></h2>
+  <div>
+    <!-- EDIT: create a free form at formspree.io and put its URL in action -->
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input type="email" name="email" required autocomplete="email"></label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+    <ul class="plain">
+      <li><a href="https://www.linkedin.com/in/your-handle">LinkedIn</a></li>
+      <li><a href="https://www.youtube.com/@your-channel">YouTube</a></li>
+      <li><a href="https://www.instagram.com/your-handle">Instagram</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="y">2026</span> Rahul Shekhar. Work Hard, Travel Far, Dream Big.</footer>
+</div>
+<script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
